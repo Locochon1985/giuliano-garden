@@ -1,0 +1,6 @@
+{
+  "folder": "00 Diario",
+  "template": "03 Recursos/Plantillas/diario.md",
+  "format": "YYYY-MM-DD",
+  "autorun": false
+}

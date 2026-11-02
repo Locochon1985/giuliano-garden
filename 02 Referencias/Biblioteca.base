@@ -1,0 +1,14 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.tags.contains("Libros")
+        - '!file.inFolder("03 Recursos/Plantillas")'
+    sort:
+      - property: file.name
+        direction: ASC
+    imageFit: contain
+    cardSize: 210
+    imageAspectRatio: 0.8
+    image: note.Portada

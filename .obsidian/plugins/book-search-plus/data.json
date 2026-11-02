@@ -1,0 +1,21 @@
+{
+  "folder": "02 Referencias",
+  "fileNameFormat": "{{title}}",
+  "frontmatter": "",
+  "content": "",
+  "useDefaultFrontmatter": true,
+  "defaultFrontmatterKeyType": "Camel Case",
+  "templateFile": "03 Recursos/Plantillas/libro.md",
+  "serviceProvider": "google",
+  "naverClientId": "",
+  "naverClientSecretName": "",
+  "localePreference": "es-us",
+  "googleApiKeySecret": "book",
+  "openPageOnCompletion": true,
+  "showCoverImageInSearch": true,
+  "enableCoverImageSave": false,
+  "enableCoverImageEdgeCurl": true,
+  "coverImagePath": "",
+  "askForLocale": true,
+  "legacySecretsRemoved": false
+}

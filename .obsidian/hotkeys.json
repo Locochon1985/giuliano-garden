@@ -1,0 +1,59 @@
+{
+  "obsidian-excalidraw-plugin:insert-LaTeX-symbol": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "app:open-help": [],
+  "app:open-settings": [],
+  "editor:open-link-in-new-split": [],
+  "editor:open-link-in-new-window": [],
+  "editor:open-link-in-new-leaf": [],
+  "table-editor-obsidian:table-control-bar": [],
+  "editor:toggle-comments": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-italics": [],
+  "editor:toggle-bold": [],
+  "auto-card-link:auto-card-link-enhance-selected-url": [],
+  "obsidian-auto-link-title:enhance-url-with-title": [],
+  "obsidian-auto-link-title:auto-link-title-normal-paste": [],
+  "workspace:close-window": [],
+  "templater-obsidian:create-new-note-from-template": [],
+  "file-explorer:new-file": [],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-book-search-plugin:open-book-search-modal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ]
+}

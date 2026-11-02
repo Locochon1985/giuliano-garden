@@ -1,0 +1,65 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-excalidraw-plugin:insert-LaTeX-symbol",
+      "icon": "binary",
+      "name": "Excalidraw: Insert LaTeX formula (e.g. \\binom{n}{k} = \\frac{n!}{k!(n-k)!}). ALT+CLICK to watch a help video.",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "icon": "lucide-separator-vertical",
+      "name": "Dividir a la derecha",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "file-explorer:move-file",
+      "icon": "lucide-folder-tree",
+      "name": "Mover archivo a otra carpeta",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:edit-file-title",
+      "icon": "lucide-edit-3",
+      "name": "Editar nombre del archivo",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:replace-in-file-templater",
+      "icon": "templater-icon",
+      "name": "Templater: Replace templates in the active file",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "textToolbarCommands": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [],
+    "editorMenuItems": [],
+    "fileMenuItems": []
+  },
+  "spacing": 0,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  },
+  "spacingReset": true
+}

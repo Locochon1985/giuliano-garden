@@ -1,0 +1,48 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "01 Notas",
+      "tag": "#atómica/🌱semilla",
+      "pattern": ""
+    },
+    {
+      "folder": "01 Notas",
+      "tag": "#atómica/🌿arbusto",
+      "pattern": ""
+    },
+    {
+      "folder": "01 Notas",
+      "tag": "#atómica/🌲perenne",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos",
+      "tag": "",
+      "pattern": ""
+    },
+    {
+      "folder": "05 Marcos/Generales",
+      "tag": "#Marcos/General",
+      "pattern": ""
+    },
+    {
+      "folder": "02 Referencias",
+      "tag": "",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos",
+      "tag": "#Mini-Ensayo",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": true,
+  "excluded_folder": [
+    {
+      "folder": "03 Recursos/Plantillas"
+    }
+  ]
+}

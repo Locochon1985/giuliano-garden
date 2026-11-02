@@ -1,0 +1,38 @@
+// ============================================================
+// Syncthing — Bóveda Obsidian "Vault"
+// Objetivo: que no viaje el estado de interfaz (que es por
+// dispositivo) ni la basura del sistema.
+// Los patrones son relativos a la raíz de la carpeta sincronizada.
+// ============================================================
+
+// --- Estado de la interfaz de Obsidian (NO debe sincronizarse) ---
+// Cada dispositivo debe tener su propio layout de paneles.
+// Esta es la causa #1 de conflictos en bóvedas Obsidian.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+// Packs de iconos de Iconize: pesan MB y son descargables, no hace falta sincronizarlos.
+.obsidian/icons
+
+// --- Papelera local ---
+.trash
+
+// --- Control de versiones local (NO debe sincronizarse con Syncthing) ---
+.git
+
+// --- Basura del sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+// --- Marcadores propios de Syncthing ---
+.stfolder
+.stignore
+
+// --- Red de seguridad ---
+// Si algún conflicto se escapa, no se propaga al resto de los equipos.
+// Nomenclatura moderna de Syncthing:
+*.sync-conflict-*
+// Nomenclatura antigua de Syncthing y estilo Dropbox:
+* (conflict *)
+*conflicted copy*
