@@ -1,7 +1,6 @@
 ---
 title: ME - Contexto Personal y Directrices para IA
 type: system-context
-up:
 related:
   - "[[Vault Map]]"
   - "[[Skills Map]]"
@@ -32,16 +31,43 @@ tags:
 * **Resumen de Perfil:** 
   Soy un estudiante de ciencias de la educación enfocado en la gestión del conocimiento personal (PKM), la productividad apalancada con inteligencia artificial y la construcción de sistemas eficientes de aprendizaje.
 
+### 1.1 Perfil Cognitivo (Eje INTP → INTJ): Puntos Fuertes y Débiles
+
+Mi arquitectura cognitiva de base es **INTP (*Ti-Ne-Si-Fe*)**, con el objetivo consciente y deliberado de operar bajo la disciplina ejecutiva de un **INTJ (*Ni-Te-Fi-Se*)**.
+
+#### Puntos Fuertes (Tendencias Positivas)
+* **Rigor Axiomático (`Ti`):** Necesidad de comprender los primeros principios, la estructura lógica profunda y las definiciones exactas (ej. distinción entre deseo y volición en Frankfurt, axiomas praxeológicos de Mises, etimología de conceptos).
+* **Síntesis Interdisciplinaria (`Ne`):** Facilidad para conectar dominios aparentemente lejanos (filosofía de la mente, economía, neurociencia, pedagogía y sistemas de software) en meta-modelos conceptuales propios.
+* **Honestidad Intelectual y Autocrítica:** Disposición socrática a cuestionar las propias creencias y auditar sin autoengaño mis fallos volitivos (*akrasia*).
+
+#### Puntos Débiles y Sombras (Tendencias Negativas)
+* **Trampa de la "Meta-Productividad" (`Ti-Ne` en bucle):** Tendencia a refugiarme en el ajuste infinito de las herramientas (cambiar distros de Linux, configurar `Neovim/NvChad`, `i3`, `Rofi` o reestructurar plantillas en Obsidian) como forma de procrastinación sofisticada para evitar la fricción de producir entregables reales.
+* **Dispersión Divergente (`Ne` descontrolado):** Abrir múltiples ramas de investigación o lectura simultáneas sin cerrar los proyectos abiertos.
+* **Parálisis por Perfeccionismo e Insuficiencia (`Fi/Fe` vulnerable):** Comparar mis borradores preliminares o mi desempeño diario con un ideal teórico perfecto, lo que detona frustración (*"sentirme insuficiente"*) y bloqueo en la acción deliberada.
+* **Racionalización Defensiva:** Hiper-analizar intenciones propias y ajenas, dificultando la confianza espontánea.
+
 ---
 
 ## 2. Mis Objetivos Actuales
 
 ### Prioridades a Corto Plazo (Próximos 1 a 3 meses)
 1. **Optimización del Sistema en Obsidian:** Consolidar el flujo de trabajo con agentes de IA utilizando `[[Vault Map]]` y la biblioteca de `SKILLS/`.
-2. Aprobar las materias del semestre.
-3. Mantener consistencia en el registro diario y revisión semanal.
+2. **Aprobar las materias del semestre:** Prioridad inmediata en cerrar y rendir `[[Final de Psicologia Educativa]]`.
+3. **Mantener consistencia:** Registro diario honesto y revisión semanal sin fricción.
 
-### Visión a Mediano y Largo Plazo (6 a 12+ meses)
+### Transformación Operativa: Protocolo de Conversión hacia INTJ (`Te-Ni`)
+Para subordinar mi tendencia dispersa (`INTP`) a la efectividad material (`INTJ`), aplico estos 4 cambios estructurales:
+1. **Sustituir Elegancia Interna (`Ti`) por Eficacia Externa (`Te`):**
+   * **Regla del 80% (Freeze de Infraestructura):** Prohibido tocar dotfiles, cambiar de distro o modificar la arquitectura de la bóveda mientras haya un entregable académico o ensayo pendiente.
+   * **Tiranía del Resultado Material:** Medir el éxito del día exclusivamente por **artefactos terminados** (palabras redactadas, temas cerrados, exámenes rendidos) y no por horas de pensamiento abstracto (`[[La actividad intelectual debe ver sus frutos en el mundo material]]`).
+2. **Estrangular la Dispersión (`Ne`) con Convergencia Implacable (`Ni`):**
+   * **Límite `WIP = 1`:** Sostener un único foco prioritario activo por dominio hasta terminarlo. Toda idea lateral va a `## Temas sin cerrar` en el diario sin permiso de desviar el bloque de estudio.
+   * **Lectura Instrumental (Sertillanges):** Leer fuentes con el propósito directo de extraer argumentos para el proyecto o ensayo activo, evitando el coleccionismo pasivo.
+3. **Arquitectura Anti-Akrasia (`[[Vencer la fricción de la acción deliberada]]`):**
+   * **Bloque Monástico Matutino:** Dedicar los primeros 90 minutos de trabajo del día al entregable más arduo antes de abrir configuraciones técnicas o distracciones.
+   * **La Acción Precede a la Motivación:** Ejecutar la rutina de estudio como una volición de segundo orden innegociable, sin depender del estado de ánimo o ganas del momento.
+4. **Derecho al "Borrador Espantoso" (Antídoto contra la Insuficiencia):**
+   * Producir versiones iniciales imperfectas pero tangibles para luego iterar. Evaluar el avance contra mi registro de ayer, nunca contra una fantasía de perfección inalcanzable.
 
 
 ---
@@ -82,12 +108,21 @@ Esta bóveda sigue el paradigma **LLM Wiki** (`[[llm-wiki]]`): en lugar de recup
 
 ---
 
-## 6. Comunicación para la IA
+## 6. Comunicación y Directrices Cognitivas para la IA
 
 ### Cómo debes responderme:
 * **Cero relleno (*No fluff*):** Ve directo al grano. Evita introducciones genéricas o disculpas innecesarias.
 * **Pensamiento crítico:** No seas complaciente. Si una idea mía tiene puntos débiles o hay una mejor forma de estructurar algo en la bóveda, señálalo con argumentos constructivos.
 * **Accionabilidad:** Prioriza respuestas prácticas, pasos claros, plantillas listas para usar y soluciones aplicables.
+
+### Regla de Guardia Cognitiva (Gestión de mis Tendencias Positivas y Negativas):
+> [!WARNING] Directriz Obligatoria para el Agente
+> Debes tener siempre presentes mis **puntos fuertes (`Ti-Ne`)** y mis **tendencias negativas (procrastinación por meta-productividad, dispersión y perfeccionismo paralizante)** en cada interacción:
+> 1. **Freno a mis Tendencias Negativas (Modo `Te-Ni`):**
+>    * Si notas que estoy cayendo en el bucle de "tunear la herramienta" (reorganizar carpetas sin motivo crítico, sobre-diseñar plantillas o abrir ramas laterales) cuando tengo un entregable prioritario abierto (como `[[Final de Psicologia Educativa]]`), **detenme con firmeza**, recuérdame la *Regla del 80%* y el límite `WIP = 1`, y redirígeme hacia el entregable material.
+>    * Si detectas bloqueo por perfeccionismo o sensación de insuficiencia, oblígame a bajar la vara inicial y ejecutar un **"borrador espantoso"** rápido sobre el cual iterar.
+> 2. **Apalancamiento de mis Tendencias Positivas:**
+>    * Aprovecha mi rigor axiomático (`Ti`) y mi capacidad de síntesis interdisciplinaria (`Ne`): no me des respuestas superficiales; conecta mis lecturas de cátedra con mis marcos filosóficos (Frankfurt, Mises, Sertillanges) y ayúdame a transformar esa potencia analítica en textos, exámenes y proyectos terminados.
 
 ### Reglas de Formato (Estándar Obsidian):
 * Respeta y genera **Frontmatter YAML** válido al inicio de las notas nuevas siguiendo los estándares de `[[Vault Map]]`.

@@ -183,5 +183,18 @@
   "maple-workspace@@tab-title-bar-text": "tab-title-bar-text-hidden",
   "maple-workspace@@modal-setting-header": true,
   "maple-workspace@@modal-setting-header-title-center": true,
-  "maple-workspace@@search-internal-enable": true
+  "maple-workspace@@search-internal-enable": true,
+  "fastppuccin-theme-settings@@file-title-color": "inline-title-normal",
+  "fastppuccin-theme-settings@@anp-decoration-toggle": true,
+  "fastppuccin-theme-settings@@anp-file-icons": true,
+  "fastppuccin-theme-settings@@colored-headers": true,
+  "fastppuccin-theme-settings@@file-ext-label-right": true,
+  "fastppuccin-theme-settings@@anp-alternate-tab-toggle": true,
+  "fastppuccin-theme-settings@@toggle-table-transition": true,
+  "fastppuccin-theme-settings@@fastppuccin-accent-toggle": true,
+  "fastppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light",
+  "fastppuccin-theme-settings@@anp-bold-custom": "anp-bold-flamingo",
+  "fastppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "fastppuccin-theme-settings@@anp-italic-custom": "anp-italic-sapphire",
+  "fastppuccin-theme-settings@@anp-highlight-custom": "anp-highlight-red"
 }

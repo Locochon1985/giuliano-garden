@@ -1,0 +1,9 @@
+{
+  "flowershowToken": "fs_pat_cANISjFtvmzXlrqgx8EO0KAPwcuULiPLGwraWrWtZsA",
+  "siteName": "knowledge garden",
+  "rootDir": "",
+  "excludePatterns": [
+    "\\.excalidraw(\\.(md|excalidraw))?$"
+  ],
+  "lastSeenVersion": ""
+}

@@ -13,6 +13,8 @@ Complete:
 cssclasses: cards
 temas:
 valor:
+status:
+  - Pendiente
 ---
 ![cover|150]({{coverUrl}})
 ## Resumen

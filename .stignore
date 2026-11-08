@@ -17,9 +17,6 @@
 // --- Papelera local ---
 .trash
 
-// --- Control de versiones local (NO debe sincronizarse con Syncthing) ---
-.git
-
 // --- Basura del sistema operativo ---
 .DS_Store
 Thumbs.db

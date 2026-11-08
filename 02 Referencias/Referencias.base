@@ -1,0 +1,126 @@
+filters:
+  and:
+    - file.inFolder("02 Referencias")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Referencia / Fuente
+  file.folder:
+    displayName: Carpeta
+  note.type:
+    displayName: Tipo
+  note.status:
+    displayName: Estado
+  note.author:
+    displayName: Autor
+  note.Autor:
+    displayName: Autor (Libro)
+  note.media_type:
+    displayName: Medio
+  note.relación:
+    displayName: Relación
+  note.tipo_lugar:
+    displayName: Tipo de Lugar
+  note.location:
+    displayName: Ubicación
+  note.temas:
+    displayName: Temas
+  note.valor:
+    displayName: Valor
+  note.creada:
+    displayName: Creada
+views:
+  - type: kanban
+    name: Kanban (Estado de Ingesta)
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - type
+      - author
+      - valor
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: kanban
+    name: Kanban (Carpetas)
+    groupBy:
+      property: file.folder
+      direction: ASC
+    groupOrder:
+      - 02 Referencias/Libros
+      - 02 Referencias/Internet
+      - 02 Referencias/Audio visual/Películas
+      - 02 Referencias/Audio visual/Series
+      - 02 Referencias/Personas
+      - 02 Referencias/Lugares
+      - 02 Referencias/Profesorado/Historia de la Educación
+      - 02 Referencias/Profesorado/Psicología Educativa
+    order:
+      - file.name
+      - type
+      - status
+      - valor
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: kanban
+    name: Kanban (Tipo de Fuente)
+    groupBy:
+      property: type
+      direction: ASC
+    groupOrder:
+      - book
+      - literature
+      - video
+      - movie
+      - github page
+      - people
+      - place
+    order:
+      - file.name
+      - file.folder
+      - status
+      - author
+      - relación
+      - tipo_lugar
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Tabla General
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - type
+      - status
+      - author
+      - relación
+      - tipo_lugar
+      - location
+      - valor
+      - creada
+    sort: []
+  - type: cards
+    name: Galería Visual
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - status
+      - author
+      - relación
+      - tipo_lugar
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.Portada
+    imageFit: contain
+    cardSize: 220

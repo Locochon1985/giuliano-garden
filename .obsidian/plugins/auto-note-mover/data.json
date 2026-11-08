@@ -19,23 +19,63 @@
       "pattern": ""
     },
     {
-      "folder": "04 Proyectos",
-      "tag": "",
-      "pattern": ""
-    },
-    {
       "folder": "05 Marcos/Generales",
       "tag": "#Marcos/General",
       "pattern": ""
     },
     {
-      "folder": "02 Referencias",
-      "tag": "",
+      "folder": "02 Referencias/Libros",
+      "tag": "#Libros",
       "pattern": ""
     },
     {
-      "folder": "04 Proyectos",
+      "folder": "02 Referencias/Audio visual/Películas",
+      "tag": "#Fuente/Pelicula",
+      "pattern": ""
+    },
+    {
+      "folder": "02 Referencias/Audio visual/Series",
+      "tag": "#Fuente/Serie",
+      "pattern": ""
+    },
+    {
+      "folder": "02 Referencias/Personas",
+      "tag": "#Persona",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos/Academia",
+      "tag": "#Proyecto/Academia",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos/Ensayos",
       "tag": "#Mini-Ensayo",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos/Ensayos",
+      "tag": "#Proyecto/Ensayo",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos/Ensayos",
+      "tag": "#Proyecto/Mini-Ensayo",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos/Ensayos",
+      "tag": "#Proyecto/Articulo",
+      "pattern": ""
+    },
+    {
+      "folder": "04 Proyectos/Sistemas",
+      "tag": "#Proyecto/Sistemas",
+      "pattern": ""
+    },
+    {
+      "folder": "02 Referencias/Lugares",
+      "tag": "#Lugar",
       "pattern": ""
     }
   ],

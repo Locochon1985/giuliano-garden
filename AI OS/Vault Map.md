@@ -1,9 +1,10 @@
 ---
 title: Vault Map - Mapa de la Bóveda
 type: system-map
-up: "[[ME]]"
 related:
   - "[[Skills Map]]"
+  - "[[ME]]"
+  - "[[Vault Map]]"
 created: 2026-10-26
 tags:
   - Sistema
@@ -22,19 +23,25 @@ tags:
 Vault/
 ├── AGENTS.md                        # Reglas globales para agentes
 ├── 00 Diario/                       # Notas diarias
-├── 01 Notas/                        # Notas atómicas y conceptos propios (Zettelkasten)
-├── 02 Referencias/                  # Fuentes externas (libros, artículos, Biblioteca.base)
+├── 01 Notas/                        # Notas atómicas y conceptos propios (Zettelkasten) + Notas.base
+├── 02 Referencias/                  # Fuentes externas inmutables clasificadas por medio + Referencias.base
+│   ├── Audio visual/                # Cine, teatro, series y documentales (Películas/, Series/)
+│   ├── Internet/                    # Artículos web, videos de YouTube, especificaciones
+│   ├── Libros/                      # Fichas de libros leídos y Biblioteca.base
+│   ├── Lugares/                     # Fichas de lugares, sedes y espacios (type: place)
+│   ├── Personas/                    # Fichas de personas y relaciones
+│   └── Profesorado/                 # Bibliografía de cátedra por materia (Psicología Educativa/, Didáctica II/)
 ├── 03 Recursos/                     # Infraestructura y recursos de soporte
 │   ├── Anexos/                      # Archivos adjuntos
-│   ├── Modelo/                      # Modelos visuales (Excalidraw, imágenes)
 │   └── Plantillas/                  # Plantillas Templater
-├── 04 Proyectos/                    # Proyectos activos, MOCs de proyecto y ensayos
-│   ├── Toma de notas.md             # MOC operativo de toma de notas
-│   ├── Inmediato/                   # Proyectos y entregables de corto plazo
-│   └── Largo Plazo/                 # Proyectos de mediano y largo plazo
-├── 05 Marcos/                       # Mapas conceptuales y categorías de dominio
+├── 04 Proyectos/                    # Proyectos activos organizados por tipo de entregable + Proyectos.base
+│   ├── Académico/                   # Entregables universitarios, cursadas y exámenes finales
+│   ├── Ensayos/                     # Mini-ensayos y producción escrita del Zettelkasten
+│   ├── Sistemas/                    # AI OS, bóveda, modelos (Modelo/) y dotfiles
+│   └── Archivo/                     # Proyectos concluidos para trazabilidad histórica
+├── 05 Marcos/                       # Mapas conceptuales, categorías de dominio y MOCs
 │   ├── Generales/                   # Disciplinas y dominios universales (Marcos/General)
-│   └── Personales/                  # Marcos propios (Marcos/Personal)
+│   └── Personales/                  # Marcos propios (Marcos/Personal) y MOCs (Toma de notas.md)
 ├── AI OS/                           # Sistema operativo de la bóveda (Schema, Operaciones y LLM Wiki)
 │   ├── ME.md                        # Contexto personal, roles y directrices
 │   ├── Vault Map.md                 # Este archivo (Schema estructural)
@@ -91,30 +98,38 @@ Siguiendo el diseño de `[[llm-wiki]]`, la bóveda separa tres capas con una **f
 - **Enrutamiento:** Toda idea propia, reflexión o concepto consolidado va aquí.
 
 ### `02 Referencias/`
-- **Contenido:** Fuentes externas: libros, artículos, literatura y `Biblioteca.base`.
-- **Ejemplos actuales:** `LA VIDA INTELECTUAL.md`, `La invitación una historia teatral elevada por su elenco y por una muy cuidada dirección.md`, `Biblioteca.base`.
-- **Enrutamiento:** Toda fuente externa o material de estudio va aquí.
+- **Contenido:** Fuentes externas inmutables clasificadas por medio y origen.
+- **Subcarpetas:**
+  - `Audio visual/` (`Películas/`, `Series/`) → Obras cinematográficas, teatro, series y documentales (`La invitación.md`).
+  - `Internet/` → Artículos web, videos, recortes y especificaciones (`llm-wiki.md`, `5 ESTRATEGIAS...`).
+  - `Libros/` → Fichas bibliográficas con portada y metadatos (`LA VIDA INTELECTUAL.md`, `Biblioteca.base`).
+  - `Lugares/` → Fichas de lugares geográficos, instituciones, cafeterías y residencias relevantes (`type: place`, tag `Lugar`).
+  - `Personas/` → Fichas de personas significativas (`Luisina.md`, `Romina.md`, `Santiago.md`).
+  - `Profesorado/` → Bibliografía obligatoria y apuntes de cátedra organizados por materia (`Psicología Educativa/`, `Historia de la Educación/`, `Didáctica II/`).
+- **Enrutamiento:** Toda fuente externa o material de estudio va en su subcarpeta correspondiente.
 
 ### `03 Recursos/`
 - **Contenido:** Infraestructura de soporte del sistema de notas y modelos visuales.
 - **Subcarpetas:**
   - `Anexos/` → archivos auxiliares y adjuntos.
   - `Modelo/` → esquemas y modelos visuales (`.excalidraw`, imágenes).
-  - `Plantillas/` → Plantillas Templater (`atómica.md`, `Categoría General.md`, `Categoría Personal.md`, `diario.md`, `libro.md`, `literatura.md`, `Mini-ensayo.md`, `moc.md`, `Preguntas.md`).
+  - `Plantillas/` → Plantillas Templater (`atómica.md`, `Categoría General.md`, `Categoría Personal.md`, `diario.md`, `libro.md`, `literatura.md`, `lugar.md`, `moc.md`, `persona.md`, `Preguntas.md`, `Proyecto Académico.md`, `Proyecto Ensayo.md`, `Proyecto Sistemas.md`).
 - **Enrutamiento:** Plantillas, modelos gráficos y recursos reutilizables.
 
 ### `04 Proyectos/`
-- **Contenido:** Proyectos activos, entregables y ensayos divididos por horizonte temporal.
+- **Contenido:** Proyectos activos, iniciativas y producción con entregable final, clasificados por dominio.
 - **Subcarpetas:**
-  - `Inmediato/` → proyectos en curso y entregables próximos.
-  - `Largo Plazo/` → iniciativas de desarrollo extendido.
+  - `Académico/` → entregables universitarios, cursadas, exámenes parciales y finales.
+  - `Ensayos/` → mini-ensayos, artículos y publicaciones destiladas del Zettelkasten.
+  - `Sistemas/` → infraestructura técnica, AI OS, scripts, Neovim/NvChad y PKM.
+  - `Archivo/` → proyectos concluidos para memoria y trazabilidad histórica.
 - **Enrutamiento:** Proyectos accionables y producción con entregable.
 
 ### `05 Marcos/`
 - **Contenido:** Índices dinámicos, categorías de dominio y mapas de contenido (MOCs).
 - **Subcarpetas:**
   - `Generales/` → disciplinas universales (`type: category general`, tag `Marcos/General`).
-  - `Personales/` y `Personales/MOCs/` → marcos conceptuales propios (`type: category personal`, tag `Marcos/Personal`) y mapas de contenido (`type: map of content`, tag `MOCs`).
+  - `Personales/` y `Personales/MOCs/` → marcos conceptuales propios (`type: category personal`, tag `Marcos/Personal`) y mapas de contenido permanentes (`type: map of content`, tag `MOCs`, ej. `Toma de notas.md`).
 - **Enrutamiento:** Nuevas categorías generales, marcos personales y MOCs permanentes.
 
 ### `AI OS/`
@@ -170,17 +185,117 @@ Siguiendo el diseño de `[[llm-wiki]]`, la bóveda separa tres capas con una **f
    valor:
    ---
    ```
-3. **Fichas de Libros (`02 Referencias/` — plantilla `libro.md` / QuickAdd Book Search):**
-   - Requieren `type: book` y `tags: Libros` para aparecer en `02 Referencias/Biblioteca.base` (que lee la propiedad `Portada`).
-4. **Páginas del Compilador LLM (`AI OS/wiki/`):**
+3. **Fichas de Libros (`02 Referencias/Libros/` — plantilla `libro.md` / QuickAdd Book Search):**
+   - Requieren `type: book` y `tags: Libros` para aparecer en `02 Referencias/Libros/Biblioteca.base` (que lee la propiedad `Portada`).
+4. **Fichas de Personas (`02 Referencias/Personas/` — plantilla `persona.md`):**
+   ```yaml
+   ---
+   nombre: <Nombre>
+   aliases:
+     - <Alias>
+   cumpleaños: YYYY-MM-DD
+   relación: Pareja | Madre | Amigo | Docente
+   correos:
+     - <Email>
+   fuente:
+   type: people
+   tags:
+     - Persona
+   ---
+   ```
+5. **Fichas de Lugares (`02 Referencias/Lugares/` — plantilla `lugar.md`):**
+   ```yaml
+   ---
+   nombre: <Nombre del lugar>
+   type: place
+   tags:
+     - Lugar
+   aliases:
+   location: <Dirección o URL>
+   tipo_lugar:
+     - Estudio | Institución | Residencia | Café | Naturaleza | Viaje
+   enlaces:
+   creada: YYYY-MM-DD
+   retocada: YYYY-MM-DD
+   temas:
+   description: <Descripción breve>
+   valor:
+   ---
+   ```
+6. **Notas Diarias (`00 Diario/` — plantilla `diario.md`):**
+   ```yaml
+   ---
+   fecha: YYYY-MM-DD
+   type: daily note
+   tags:
+     - Diario
+   estado_animo: 1-10
+   horas_sueño: N
+   ---
+   ```
+6. **Proyectos Activos (`04 Proyectos/`):**
+   - **Académico (`04 Proyectos/Académico/` — `Proyecto Académico.md`):**
+     ```yaml
+     ---
+     titulo: <Título>
+     type: project
+     materia: <Asignatura>
+     modalidad: Examen Final | Parcial | Monografía | Coloquio Final
+     fecha_entrega: YYYY-MM-DD
+     status: Planificación | En curso | Revisión | Procesado
+     creada: YYYY-MM-DD
+     retocada: YYYY-MM-DD
+     tags:
+       - Proyecto/Académico
+     temas:
+       - "[[Marco en 05 Marcos]]"
+     calificación:
+     ---
+     ```
+   - **Ensayos (`04 Proyectos/Ensayos/` — `Proyecto Ensayo.md`):**
+     ```yaml
+     ---
+     titulo: <Título>
+     type: essay
+     status: Borrador | En redacción | Revisión | Publicado
+     medio: Substack | Blog | Redes | Divulgación
+     creada: YYYY-MM-DD
+     retocada: YYYY-MM-DD
+     tags:
+       - Mini-Ensayo
+       - Proyecto/Ensayo
+     temas:
+     valor:
+     ---
+     ```
+   - **Sistemas (`04 Proyectos/Sistemas/` — `Proyecto Sistemas.md`):**
+     ```yaml
+     ---
+     titulo: <Título>
+     type: project
+     status: En curso | En pruebas | Estable
+     alcance: Bóveda | Entorno SO | IA
+     stack:
+       - Neovim
+       - Obsidian
+       - PowerShell
+     creada: YYYY-MM-DD
+     retocada: YYYY-MM-DD
+     tags:
+       - Proyecto/Sistemas
+     temas:
+     ---
+     ```
+7. **Páginas del Compilador LLM (`AI OS/wiki/`):**
    - Ver detalles de las 4 subcarpetas en `[[convenciones]]` (`type: wiki-source | wiki-entity | wiki-concept | wiki-analysis`).
 
 ### Tags
 - **Madurez atómica (con emoji):** `atómica/🌱semilla`, `atómica/🌿arbusto`, `atómica/🌲perenne`, `atómica/🪾marchita`, `atómica/🥀sequía`.
 - **Marcos y Mapas:** `Marcos/General`, `Marcos/Personal`, `MOCs`.
-- **Fuentes y Producción:** `Fuente/Articulo`, `Fuente/Podcast`, `Fuente/Video`, `Fuente/Conferencia`, `Libros`, `Mini-Ensayo`, `Diario`.
+- **Proyectos:** `Proyecto/Académico`, `Proyecto/Ensayo`, `Proyecto/Mini-Ensayo`, `Proyecto/Articulo`, `Proyecto/Sistemas`, `Mini-Ensayo`.
+- **Fuentes y Referencias:** `Articulo`, `Video`, `Podcast`, `Pelicula`, `Serie`, `Conferencia`, `Libros`, `Persona`.
+- **Registros y Sistema:** `Diario`, `Sistema`, `Skill`.
 - **Subsistema Wiki (`AI OS/wiki/`):** `Wiki/Fuente`, `Wiki/Entidad`, `Wiki/Concepto`, `Wiki/Analisis`.
-- **Sistema:** `Sistema`, `Skill`.
 
 ### Propiedad `temas`
 - Siempre en plural (`temas`, nunca `tema`) tanto en el frontmatter como en consultas Dataview (`WHERE contains(temas, this.file.link)`).
@@ -226,9 +341,9 @@ Siguiendo el diseño de `[[llm-wiki]]`, la bóveda separa tres capas con una **f
 3. **Reflexiones y tesis en primera persona** → `01 Notas/`.
 4. **Compilación enciclopédica automática del LLM** → `AI OS/wiki/` (`fuentes/`, `entidades/`, `conceptos/`, `análisis/`).
 5. **Fuentes crudas externas (libros, artículos)** → `02 Referencias/`.
-6. **Modelos visuales (`.excalidraw`, esquemas)** → `03 Recursos/Modelo/`.
+6. **Modelos visuales (`.excalidraw`, esquemas)** → `04 Proyectos/Sistemas/Modelo/`.
 7. **Plantillas nuevas** → `03 Recursos/Plantillas/`.
-8. **Proyectos activos y MOCs de proyecto** → `04 Proyectos/` (`Inmediato/`, `Largo Plazo/`, `Toma de notas.md`).
+8. **Proyectos activos y entregables** → `04 Proyectos/` (`Académico/`, `Ensayos/`, `Sistemas/`, `Archivo/`, visualizados en `04 Proyectos/Proyectos.base`). MOCs permanentes van a `05 Marcos/Personales/MOCs/`.
 9. **Categorías universales / disciplinas** → `05 Marcos/Generales/`.
 10. **Marcos propios** → `05 Marcos/Personales/`.
 11. **Archivos de sistema y skills** → `AI OS/`.
@@ -237,11 +352,13 @@ Siguiendo el diseño de `[[llm-wiki]]`, la bóveda separa tres capas con una **f
 
 ## 6. Herramientas y Plugins Relevantes
 
-- **Templater:** Plantillas en `03 Recursos/Plantillas/`.
+- **Templater:** Automatización de creación de notas mediante plantillas dinámicas en `03 Recursos/Plantillas/`.
 - **Dataview:** Consultas automáticas en `05 Marcos/`, `04 Proyectos/` y `00 Diario/`.
-- **Excalidraw:** Modelos visuales en `03 Recursos/Modelo/`.
-- **Syncthing:** Sincronización (carpeta `.stfolder/`).
-- **Graph view:** Colores por tags de `Marcos/` y por path `01 Notas`.
+- **Auto Note Mover:** Enrutamiento automático por tags hacia `01 Notas/`, `02 Referencias/` (`Libros/`, `Audio visual/`, `Personas/`), `04 Proyectos/` (`Académico/`, `Ensayos/`, `Sistemas/`) y `05 Marcos/Generales/`.
+- **Obsidian Bases:** Vistas de bases de datos tipo Kanban/tabla/tarjetas (`01 Notas/Notas.base`, `02 Referencias/Referencias.base`, `02 Referencias/Libros/Biblioteca.base`, `04 Proyectos/Proyectos.base`).
+- **Excalidraw:** Modelos visuales conceptuales en `04 Proyectos/Sistemas/Modelo/`.
+- **Syncthing:** Sincronización continua peer-to-peer (directorio `.stfolder/`).
+- **Graph view:** Colores por tags de `Marcos/` y por ruta `01 Notas/`.
 
 ---
 
@@ -272,17 +389,16 @@ La bóveda se considera un **bundle OKF conformante a nivel mínimo** y puede ex
 - No usar estos nombres para notas de conceptos.
 
 ### 7.5 Tipos (`type`) usados en esta bóveda
-- `evergreen` / `concept` (notas en primera persona en `01 Notas/`)
+- `evergreen` / `concept` (notas atómicas y permanentes en `01 Notas/`)
 - `category general` / `category personal` (marcos en `05 Marcos/`)
-- `map of content` / `essay` (MOCs y mini-ensayos en `04 Proyectos/`)
-- `literature` / `book` (fuentes y libros en `02 Referencias/`)
+- `map of content` (MOCs permanentes en `05 Marcos/Personales/MOCs/`)
+- `project` (proyectos en `04 Proyectos/Academia/` y `04 Proyectos/Sistemas/`)
+- `essay` (mini-ensayos en `04 Proyectos/Ensayos/`)
+- `literature` / `book` (fuentes, literatura y libros en `02 Referencias/`)
+- `people` (fichas de personas en `02 Referencias/Personas/`)
+- `place` (fichas de lugares en `02 Referencias/Lugares/`)
 - `daily note` (entradas en `00 Diario/`)
 - `wiki-source` / `wiki-entity` / `wiki-concept` / `wiki-analysis` (páginas del compilador en `AI OS/wiki/`)
-- `system-context` / `system-map` / `skill` (archivos en `AI OS/`)
-- `literature` (notas de fuentes, artículos, videos en `02 Referencias/`)
-- `book` (fichas de libros en `02 Referencias/`)
-- `daily note` (entradas en `00 Diario/`)
-- `essay` (mini-ensayos en `04 Proyectos/`)
 - `system-context` / `system-map` / `skill` (archivos en `AI OS/`)
 
 ### 7.6 Exclusiones para Bundles OKF
@@ -300,4 +416,4 @@ No incluir en un bundle OKF:
 - Actualizar este mapa cuando se añadan carpetas o cambie la estructura.
 - Revisar categorías huérfanas periódicamente.
 - Mantener consistencia entre `temas` y enlaces reales en el cuerpo de las notas.
-- Mantener el único `index.md` (en la raíz) y `log.md` actualizados sin generar `index.md` en subcarpetas.
+- Mantener el único `index.md` (`AI OS/wiki/index.md`) y `log.md` (`AI OS/wiki/log.md`) actualizados sin generar archivos de índice en subcarpetas.

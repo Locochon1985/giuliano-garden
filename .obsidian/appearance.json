@@ -1,12 +1,13 @@
 {
-  "accentColor": "#e11414",
+  "accentColor": "#fff5f5",
   "cssTheme": "FastPpuccin",
   "enabledCssSnippets": [
     "Cards",
     "CyanVoxel_s General Tweaks",
     "books",
     "stylish-blockquotes",
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "Colored Sidebar Items"
   ],
   "theme": "obsidian",
   "textFontFamily": "JetBrainsMono Nerd Font",

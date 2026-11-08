@@ -1,12 +1,12 @@
 ---
 title: Overview - Descripción General de la LLM Wiki
 type: system-map
-up: "[[Vault Map]]"
 related:
   - "[[index]]"
   - "[[convenciones]]"
   - "[[log]]"
   - "[[llm-wiki]]"
+  - "[[Vault Map]]"
 created: 2026-10-28
 tags:
   - Sistema

@@ -1,0 +1,88 @@
+filters:
+  and:
+    - file.inFolder("01 Notas")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Nota
+  note.tags:
+    displayName: Madurez
+  note.valor:
+    displayName: Valor
+  note.temas:
+    displayName: Temas
+  note.creada:
+    displayName: Creada
+  note.retocada:
+    displayName: Retocada
+  note.motivo:
+    displayName: Motivo
+views:
+  - type: kanban
+    name: Tablero de Madurez
+    groupBy:
+      property: tags
+      direction: ASC
+    groupOrder:
+      - atómica/🌱semilla
+      - atómica/🌿arbusto
+      - atómica/🌲perenne
+      - atómica/🥀sequía
+      - atómica/🪾marchita
+    order:
+      - file.name
+      - valor
+      - temas
+      - retocada
+    sort:
+      - property: retocada
+        direction: DESC
+    columnWidth: 500
+  - type: kanban
+    name: Tablero por Valor
+    groupBy:
+      property: valor
+      direction: DESC
+    order:
+      - file.name
+      - tags
+      - temas
+      - retocada
+    sort:
+      - property: retocada
+        direction: DESC
+  - type: table
+    name: Tabla General
+    groupBy:
+      property: tags
+      direction: ASC
+    order:
+      - file.name
+      - tags
+      - valor
+      - temas
+      - creada
+      - retocada
+    sort:
+      - property: retocada
+        direction: DESC
+  - type: cards
+    name: Galería de Notas
+    groupBy:
+      property: tags
+      direction: ASC
+    groupOrder:
+      - atómica/🌱semilla
+      - atómica/🌿arbusto
+      - atómica/🌲perenne
+      - atómica/🥀sequía
+      - atómica/🪾marchita
+    order:
+      - file.name
+      - valor
+      - temas
+      - retocada
+    sort:
+      - property: retocada
+        direction: DESC
+    cardSize: 240

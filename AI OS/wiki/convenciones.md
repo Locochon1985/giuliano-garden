@@ -1,11 +1,11 @@
 ---
 title: Convenciones - Reglas Internas del Subsistema AI OS/wiki
 type: system-map
-up: "[[Overview]]"
 related:
   - "[[Vault Map]]"
   - "[[ME]]"
   - "[[Skills Map]]"
+  - "[[Overview]]"
 created: 2026-10-28
 tags:
   - Sistema

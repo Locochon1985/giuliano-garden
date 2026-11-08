@@ -5,20 +5,13 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"01 Notas\"  ",
       "color": {
         "a": 1,
         "rgb": 10022049
-      }
-    },
-    {
-      "query": "tag:#Marcos/General  ",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
       }
     },
     {
@@ -36,10 +29,24 @@
       }
     },
     {
-      "query": "tag:#Diario  ",
+      "query": "path:\"05 Marcos\"  ",
       "color": {
         "a": 1,
-        "rgb": 5408992
+        "rgb": 15898392
+      }
+    },
+    {
+      "query": "path:\"00 Diario\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5717462
+      }
+    },
+    {
+      "query": "path:\"04 Proyectos\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16113925
       }
     }
   ],
@@ -53,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4829137934262273,
+  "scale": 0.8301021279767032,
   "close": true
 }

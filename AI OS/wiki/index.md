@@ -15,13 +15,17 @@ tags:
 * [[2026-10-31]] (`00 Diario/2026-10-31.md`) — Entrada diaria.
 * [[2026-11-01]] (`00 Diario/2026-11-01.md`) — Entrada diaria.
 * [[2026-11-02]] (`00 Diario/2026-11-02.md`) — Entrada diaria.
+* [[2026-11-03]] (`00 Diario/2026-11-03.md`) — Entrada diaria.
+* [[2026-11-04]] (`00 Diario/2026-11-04.md`) — Entrada diaria.
 
 ---
 
 ## 1. Conceptos y Notas Atómicas (`01 Notas/`)
 
+* [Notas.base](01%20Notas/Notas.base) — Tablero Kanban y vistas dinámicas de Obsidian Bases organizado por estado de madurez (`🌱semilla`, `🌿arbusto`, `🌲perenne`, `🥀sequía`, `🪾marchita`) y por `valor`.
+
 ### Conceptos Troncales (`type: concept`)
-* [[Nota perenne]] (`01 Notas/Nota perenne.md`) — Definición y 5 principios de las notas escritas para evolucionar y acumularse a través de proyectos (Matuschak, Ahrens, Luhmann).
+* [[Notas Perennes]] (`01 Notas/Nota perenne.md`) — Definición y 5 principios de las notas escritas para evolucionar y acumularse a través de proyectos (Matuschak, Ahrens, Luhmann).
 * [[Curriculum Personal]] (`01 Notas/Curriculum Personal.md`) — Autogestión deliberada del aprendizaje orientada a los propios fines, conectada con intereses de segundo orden y acción material.
 * [[Intereses de primer y segundo orden]] (`01 Notas/Intereses de primer y segundo orden.md`) — Distinción entre impulsos inmediatos automatizados (1.er orden) y preferencias reflexivas ancladas en valores e identidad (2.º orden) a partir de Mises y Frankfurt.
 
@@ -33,19 +37,39 @@ tags:
 * [[Delimitar la perspectiva del curriculum]] (`01 Notas/Delimitar la perspectiva del curriculum.md`) — Estrategias para acotar hojas de ruta complejas mediante subdivisión temática, escuelas de pensamiento o preguntas generadoras.
 * [[Comer una manzana segun la neurociencia]] (`01 Notas/Comer una manzana segun la neurociencia.md`) — Las 6 etapas neurocognitivas (procesamiento visual, identidad, memoria semántica, control, cálculo espacial y ejecución motora) inspiradas en la red conceptual de SuperMemo.
 * [[La prueba del árbol]] (`01 Notas/La prueba del árbol.md`) — Marco sobre el destino de las notas que alcanzan madurez perenne: ensamblaje en mini-ensayos, colisión interdisciplinaria y reglas praxeológicas.
+* [[La constante polarización del mundo]] (`01 Notas/La constante polarización del mundo.md`) — Diagnóstico sociopolítico sobre la oscilación pendular de la ventana de Overton, posverdad, tribalismo moral y el trauma pos-1945.
 
 ---
 
 ## 2. Fuentes y Referencias (`02 Referencias/` — Capa Raw)
 
-* [[LA VIDA INTELECTUAL]] (`02 Referencias/LA VIDA INTELECTUAL.md`) — `[book]` Obra de A.D. Sertillanges (1920) sobre la vocación intelectual, métodos, disciplina y preparación del estudio.
-* [[llm-wiki]] (`02 Referencias/llm-wiki.md`) — `[github page]` Especificación de Andrej Karpathy sobre el patrón *LLM Wiki* (arquitectura de 3 capas: *Raw sources*, *Wiki* y *Schema*, con operaciones *Ingest*, *Query* y *Lint*).
-* [[La invitación]] (`02 Referencias/La invitación.md`) — `[movie]` Reseña de Ignacio Alcuri sobre la dirección y puesta en escena de *La invitación* (Olivia Wilde).
-* [[5 ESTRATEGIAS para ser más INTELIGENTE YA mismo]] (`02 Referencias/5 ESTRATEGIAS para ser más INTELIGENTE YA mismo.md`) — `[video]` (Cordura Artificial) Modelos mentales, juegos finitos/infinitos y cómo las ideas erróneas sobre la inteligencia impiden aprovechar conceptos y herramientas.
-* [[Luisina]] (`02 Referencias/Luisina.md`) — `[people]` Persona relacionada (Pareja), cumpleaños 2006-12-09.
-* [[Romina]] (`02 Referencias/Romina.md`) — `[people]` Persona relacionada (Madre), cumpleaños 2026-05-30.
-* [[Santiago]] (`02 Referencias/Santiago.md`) — `[people]` Persona relacionada (Abuelo).
-* [Biblioteca.base](02%20Referencias/Biblioteca.base) — Vista de tarjetas de Obsidian Bases filtrada por el tag `Libros`.
+* [Referencias.base](02%20Referencias/Referencias.base) — Tablero Kanban y vistas dinámicas de Obsidian Bases con todas las fuentes externas organizadas por carpeta de origen, tipo de medio y estado de ingesta.
+
+### Libros (`02 Referencias/Libros/`)
+* [[LA VIDA INTELECTUAL]] (`02 Referencias/Libros/LA VIDA INTELECTUAL.md`) — `[book]` Obra de A.D. Sertillanges (1920) sobre la vocación intelectual, métodos, disciplina y preparación del estudio.
+* [Biblioteca.base](02%20Referencias/Libros/Biblioteca.base) — Vista de tarjetas de Obsidian Bases filtrada por el tag `Libros`.
+
+### Internet (`02 Referencias/Internet/`)
+* [[llm-wiki]] (`02 Referencias/Internet/llm-wiki.md`) — `[github page]` Especificación de Andrej Karpathy sobre el patrón *LLM Wiki* (arquitectura de 3 capas: *Raw sources*, *Wiki* y *Schema*, con operaciones *Ingest*, *Query* y *Lint*).
+* [[5 ESTRATEGIAS para ser más INTELIGENTE YA mismo]] (`02 Referencias/Internet/5 ESTRATEGIAS para ser más INTELIGENTE YA mismo.md`) — `[video]` (Cordura Artificial) Modelos mentales, juegos finitos/infinitos y cómo las ideas erróneas sobre la inteligencia impiden aprovechar conceptos y herramientas.
+
+### Audio visual (`02 Referencias/Audio visual/`)
+* [[La invitación]] (`02 Referencias/Audio visual/Películas/La invitación.md`) — `[movie]` Reseña de Ignacio Alcuri sobre la dirección y puesta en escena de *La invitación* (Olivia Wilde).
+* `02 Referencias/Audio visual/Series/` — Subcarpeta para series de televisión y documentales.
+
+### Profesorado (`02 Referencias/Profesorado/`)
+* [[Enseñanza para la comprensión]] (`02 Referencias/Profesorado/Psicología Educativa/Enseñanza para la comprensión.md`) — `[literature]` Apuntes de cátedra sobre David Perkins (*Escuela Inteligente*), Howard Gardner y Jerome Bruner (constructivismo cultural y aprendizaje significativo).
+* [[Resumen Personal Coloquio Historia de la Educación]] (`02 Referencias/Profesorado/Historia de la Educación/Resumen Personal Coloquio Historia de la Educación.md`) — `[literature]` Síntesis integral desde las sociedades originarias hasta el siglo XX importada desde Google Docs para el coloquio de la cátedra.
+* [[Síntesis de Defensa Didáctica II]] (`02 Referencias/Profesorado/Didáctica II/Síntesis de Defensa Didáctica II.md`) — `[literature]` Síntesis de defensa y fundamentación de decisiones didácticas y curriculares para el Coloquio Final de Didáctica II (planificación de Filosofía, 1.er año, Eje II Aristóteles).
+
+### Personas (`02 Referencias/Personas/` — `type: people`)
+* [[Luisina]] (`02 Referencias/Personas/Luisina.md`) — Persona relacionada (Pareja), cumpleaños 2006-12-09.
+* [[Romina]] (`02 Referencias/Personas/Romina.md`) — Persona relacionada (Madre), cumpleaños 2026-05-30.
+* [[Santiago]] (`02 Referencias/Personas/Santiago.md`) — Persona relacionada (Abuelo).
+
+### Lugares (`02 Referencias/Lugares/` — `type: place`)
+* [[Residencia de mujeres]] (`02 Referencias/Lugares/Residencia de mujeres.md`) — `[place]` Residencia de alquiler de Luisina en Reconquista, Santa Fe.
+* `02 Referencias/Lugares/` — Directorio de sedes, instituciones, espacios de estudio y residencias relevantes (`tag: Lugar`).
 
 ---
 
@@ -67,21 +91,30 @@ tags:
   * [[Sociología]] (`05 Marcos/Generales/Sociología.md`) — Acción colectiva y estructuras sociales.
   * [[Ciencia política]] (`05 Marcos/Generales/Ciencia política.md`) — Poder, instituciones y decisión pública.
 
----
-
-## 4. Proyectos y MOCs Operativos (`04 Proyectos/`)
-
-* [[Toma de notas]] (`04 Proyectos/Toma de notas.md`) — `[map of content]` MOC operativo sobre métodos de escritura y aprendizaje con radares Dataview de notas en sequía (`🥀sequía`) y notas reactivadas.
-* `04 Proyectos/Inmediato/` — Carpeta para proyectos y entregables de corto plazo.
-* `04 Proyectos/Largo Plazo/` — Carpeta para proyectos e iniciativas de largo aliento.
+### Marcos Personales y MOCs (`05 Marcos/Personales/`)
+* [[Toma de notas]] (`05 Marcos/Personales/MOCs/Toma de notas.md`) — `[map of content]` MOC operativo sobre métodos de escritura y aprendizaje con radares Dataview de notas en sequía (`🥀sequía`), candidatas a integrar y notas reactivadas.
 
 ---
 
-## 5. Recursos y Modelos (`03 Recursos/`)
+## 4. Proyectos Activos y Entregables (`04 Proyectos/`)
 
-* **Modelos Visuales (`03 Recursos/Modelo/`):** `Modelo v8.excalidraw`, `TransModelo v9.excalidraw` (Meta-Modelo de agencia, entropía, sombra y niveles de conciencia), `Modelo AQAL.jpg`, `Gemini_Generated_Image_dk4orcdk4orcdk4o-Photoroom.png`.
-* **Plantillas (`03 Recursos/Plantillas/`):** `atómica.md`, `Categoría General.md`, `Categoría Personal.md`, `diario.md`, `libro.md`, `literatura.md`, `Mini-ensayo.md`, `moc.md`, `persona.md`, `Preguntas.md`.
-* **Otros Recursos:** `03 Recursos/the flinch la inmutacion julien smith.pdf`.
+* [Proyectos.base](04%20Proyectos/Proyectos.base) — Tablero Kanban y vistas dinámicas de Obsidian Bases agrupadas por carpeta (`Académico/`, `Ensayos/`, `Sistemas/`, `Archivo/`) y por `status`.
+* [[Final de Psicologia Educativa]] (`04 Proyectos/Académico/Final de Psicologia Educativa.md`) — `[project]` Delimitación temática y preparación del examen final de Psicología Educativa.
+* [[Modelo de Realidad]] (`04 Proyectos/Sistemas/Modelo de Realidad.md`) — `[project]` Metamodelo visual y sistema de diagnóstico psíquico, cibernético y volitivo (AQAL, Assagioli, Dilts, Frankfurt).
+* [[Coloquio Didáctica II]] (`04 Proyectos/Archivo/Coloquio Didáctica II.md`) — `[project]` Coloquio final de Didáctica II (Docente: Mariana Morello) — aprobado (`calificación: 10`) y archivado.
+* [[Coloquio Historia de la Educacion]] (`04 Proyectos/Archivo/Coloquio Historia de la Educacion.md`) — `[project]` Coloquio final de Historia de la Educación (Prof. Mónica Bacarezza) — aprobado (`calificación: 10`) y archivado.
+* **Modelos Visuales (`04 Proyectos/Sistemas/Modelo/`):** `Modelo v8.excalidraw`, `TransModelo v9.excalidraw` (Meta-Modelo de agencia, entropía, sombra y niveles de conciencia), `Modelo AQAL.jpg`, `Gemini_Generated_Image_dk4orcdk4orcdk4o-Photoroom.png`.
+* `04 Proyectos/Académico/` — Entregables universitarios, cursadas, exámenes parciales y finales.
+* `04 Proyectos/Ensayos/` — Mini-ensayos, artículos y publicaciones destiladas del Zettelkasten.
+* `04 Proyectos/Sistemas/` — Infraestructura técnica, AI OS, modelos y PKM.
+* `04 Proyectos/Archivo/` — Proyectos concluidos para memoria y trazabilidad histórica.
+
+---
+
+## 5. Recursos y Plantillas (`03 Recursos/`)
+
+* **Plantillas (`03 Recursos/Plantillas/`):** `atómica.md`, `Categoría General.md`, `Categoría Personal.md`, `diario.md`, `libro.md`, `literatura.md`, `lugar.md`, `moc.md`, `persona.md`, `Preguntas.md`, `Proyecto Académico.md`, `Proyecto Ensayo.md`, `Proyecto Sistemas.md`.
+* **Otros Recursos:** `03 Recursos/the flinch la inmutacion julien smith.pdf`, `03 Recursos/Anexos/`.
 
 ---
 

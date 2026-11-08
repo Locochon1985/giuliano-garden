@@ -1,0 +1,108 @@
+filters:
+  and:
+    - file.inFolder("04 Proyectos")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Proyecto
+  file.folder:
+    displayName: Carpeta
+  note.status:
+    displayName: Estado
+  note.materia:
+    displayName: Materia
+  note.modalidad:
+    displayName: Modalidad
+  note.fecha_entrega:
+    displayName: Entrega / Mesa
+  note.calificación:
+    displayName: Calificación
+  note.medio:
+    displayName: Medio
+  note.alcance:
+    displayName: Alcance
+  note.stack:
+    displayName: Stack
+  note.creada:
+    displayName: Creada
+views:
+  - type: kanban
+    name: Kanban (Estado)
+    groupBy:
+      property: status
+      direction: ASC
+    groupOrder:
+      - En curso
+      - - Completo
+      - 
+    order:
+      - file.name
+      - file.folder
+      - materia
+      - modalidad
+      - fecha_entrega
+      - calificación
+    sort:
+      - property: fecha_entrega
+        direction: ASC
+  - type: kanban
+    name: Kanban (Carpetas)
+    groupBy:
+      property: file.folder
+      direction: ASC
+    groupOrder:
+      - 04 Proyectos/Académico
+      - 04 Proyectos/Ensayos
+      - 04 Proyectos/Sistemas
+      - 04 Proyectos/Archivo
+    order:
+      - file.name
+      - status
+      - fecha_entrega
+      - alcance
+      - file.ctime
+      - file.links
+    sort:
+      - property: fecha_entrega
+        direction: ASC
+  - type: table
+    name: Tabla General
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - status
+      - materia
+      - modalidad
+      - fecha_entrega
+      - calificación
+      - medio
+      - alcance
+      - stack
+      - creada
+    sort:
+      - property: fecha_entrega
+        direction: ASC
+  - type: cards
+    name: Galería por Carpeta
+    groupBy:
+      property: file.folder
+      direction: ASC
+    groupOrder:
+      - 04 Proyectos/Académico
+      - 04 Proyectos/Ensayos
+      - 04 Proyectos/Sistemas
+      - 04 Proyectos/Archivo
+    order:
+      - file.name
+      - status
+      - materia
+      - modalidad
+      - fecha_entrega
+      - calificación
+    sort:
+      - property: fecha_entrega
+        direction: ASC
+    cardSize: 240

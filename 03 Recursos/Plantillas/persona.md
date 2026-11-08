@@ -10,4 +10,6 @@ tags:
   - Persona
 description:
 aliases:
+status:
+  - Pendiente
 ---

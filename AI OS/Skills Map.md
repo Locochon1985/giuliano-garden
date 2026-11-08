@@ -1,9 +1,10 @@
 ---
 title: Skills Map - Índice de Skills
 type: system-map
-up: "[[ME]]"
 related:
   - "[[Vault Map]]"
+  - "[[ME]]"
+  - "[[Skills Map]]"
 created: 2026-10-26
 tags:
   - Sistema

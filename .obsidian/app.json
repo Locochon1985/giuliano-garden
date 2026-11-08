@@ -28,7 +28,7 @@
   "showInlineTitle": false,
   "showIndentGuide": true,
   "propertiesInDocument": "visible",
-  "openBehavior": "file:",
+  "openBehavior": "",
   "spellcheckDictionary": [
     "inferotemporal",
     "wanton",
@@ -43,7 +43,19 @@
     "Update",
     "Vault",
     "MOC",
-    "Evergreen"
+    "Evergreen",
+    "nvchad",
+    "rofi",
+    "Zettelkasten",
+    "antigravity",
+    "luisina",
+    "Luisina",
+    "v9",
+    "metamodelo",
+    "posverdad",
+    "omarchy",
+    "Ventoy",
+    "CachyOS"
   ],
   "spellcheck": true
 }
