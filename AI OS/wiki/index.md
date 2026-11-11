@@ -52,6 +52,7 @@ tags:
 ### Internet (`02 Referencias/Internet/`)
 * [[llm-wiki]] (`02 Referencias/Internet/llm-wiki.md`) — `[github page]` Especificación de Andrej Karpathy sobre el patrón *LLM Wiki* (arquitectura de 3 capas: *Raw sources*, *Wiki* y *Schema*, con operaciones *Ingest*, *Query* y *Lint*).
 * [[5 ESTRATEGIAS para ser más INTELIGENTE YA mismo]] (`02 Referencias/Internet/5 ESTRATEGIAS para ser más INTELIGENTE YA mismo.md`) — `[video]` (Cordura Artificial) Modelos mentales, juegos finitos/infinitos y cómo las ideas erróneas sobre la inteligencia impiden aprovechar conceptos y herramientas.
+* [[Solución Audio Omarchy]] (`02 Referencias/Internet/Solución Audio Omarchy.md`) — `[literature]` Guía técnica sobre diagnóstico, arquitectura y resolución de problemas de salidas simultáneas de audio (HDMI + Analógico) y jack de auriculares en Omarchy.
 
 ### Audio visual (`02 Referencias/Audio visual/`)
 * [[La invitación]] (`02 Referencias/Audio visual/Películas/La invitación.md`) — `[movie]` Reseña de Ignacio Alcuri sobre la dirección y puesta en escena de *La invitación* (Olivia Wilde).

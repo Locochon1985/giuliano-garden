@@ -6,6 +6,11 @@ tags:
 
 > Registro cronológico *append-only* siguiendo el formato parseable de `[[llm-wiki]]`: `## [YYYY-MM-DD] <ingest|query|lint|schema> | <Título>`.
 
+## [2026-11-11] ingest | Ingesta y formateo de referencia técnica: `Solución Audio Omarchy`
+* **Formateo y enrutamiento (`02 Referencias/Internet/`):** Aplicada la plantilla canónica de literatura/internet (`type: literature`, `media_type: articulo`, `tags: Fuente/Articulo`) a [`02 Referencias/Internet/Solución Audio Omarchy.md`](02%20Referencias/Internet/Solución%20Audio%20Omarchy.md), integrando síntesis ejecutiva, cuerpo técnico, reflexiones arquitectónicas sobre PipeWire/WirePlumber/ALSA y enlaces de referencia.
+* **Saneamiento de raíz:** Eliminado el archivo huérfano en la raíz de la bóveda respetando la regla canónica de `AI OS/Vault Map.md`.
+* **Catálogo actualizado:** Indexada la referencia en `AI OS/wiki/index.md`.
+
 ## [2026-11-03] ingest | Importación de Google Doc y creación de proyecto `Coloquio Historia de la Educacion`
 * **Fuente externa procesada (`gdocs`):** Extraído el documento [RESUMEN PERSONAL Coloquio historia de la educación](https://docs.google.com/document/d/1mLpSKQ3BZEfwfNiadm2vxO-UKsQkD5VXKwe2i328bNU/edit) y resguardado en [`02 Referencias/Profesorado/Historia de la Educación/Resumen Personal Coloquio Historia de la Educación.md`](file:///c:/Users/Admin/Documents/sincronia/Vault/02%20Referencias/Profesorado/Historia%20de%20la%20Educaci%C3%B3n/Resumen%20Personal%20Coloquio%20Historia%20de%20la%20Educaci%C3%B3n.md).
 * **Proyecto académico creado:** Generado [`04 Proyectos/Academia/Coloquio Historia de la Educacion.md`](file:///c:/Users/Admin/Documents/sincronia/Vault/04%20Proyectos/Academia/Coloquio%20Historia%20de%20la%20Educacion.md) (Prof. Mónica Bacarezza) estructurando el guion de exposición oral en 6 ejes diacrónicos, banco de preguntas de examen y datos difíciles.
