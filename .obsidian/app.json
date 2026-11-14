@@ -55,7 +55,9 @@
     "posverdad",
     "omarchy",
     "Ventoy",
-    "CachyOS"
+    "CachyOS",
+    "dotfiles",
+    "Eero"
   ],
   "spellcheck": true
 }

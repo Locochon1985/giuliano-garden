@@ -1,0 +1,9 @@
+{
+  "default_model": "antigravity/gemini-4-hydrogen",
+  "default_mode": "background",
+  "max_concurrency": 5,
+  "stall_timeout_ms": 240000,
+  "tool_stall_timeout_ms": 1800000,
+  "history_max_tasks": 200,
+  "model_profiles": {}
+}

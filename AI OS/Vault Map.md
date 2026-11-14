@@ -33,6 +33,7 @@ Vault/
 │   └── Profesorado/                 # Bibliografía de cátedra por materia (Psicología Educativa/, Didáctica II/)
 ├── 03 Recursos/                     # Infraestructura y recursos de soporte
 │   ├── Anexos/                      # Archivos adjuntos
+│   ├── Pi Hub/                      # Centro de control y configuración de Pi Agent ([[Pi Hub - Panel de Control]])
 │   └── Plantillas/                  # Plantillas Templater
 ├── 04 Proyectos/                    # Proyectos activos organizados por tipo de entregable + Proyectos.base
 │   ├── Académico/                   # Entregables universitarios, cursadas y exámenes finales
@@ -113,8 +114,9 @@ Siguiendo el diseño de `[[llm-wiki]]`, la bóveda separa tres capas con una **f
 - **Subcarpetas:**
   - `Anexos/` → archivos auxiliares y adjuntos.
   - `Modelo/` → esquemas y modelos visuales (`.excalidraw`, imágenes).
+  - `Pi Hub/` → centro de configuración centralizada de Pi Agent: subagentes, skills, orquestador y archivos `config/` (`[[Pi Hub - Panel de Control]]`).
   - `Plantillas/` → Plantillas Templater (`atómica.md`, `Categoría General.md`, `Categoría Personal.md`, `diario.md`, `libro.md`, `literatura.md`, `lugar.md`, `moc.md`, `persona.md`, `Preguntas.md`, `Proyecto Académico.md`, `Proyecto Ensayo.md`, `Proyecto Sistemas.md`).
-- **Enrutamiento:** Plantillas, modelos gráficos y recursos reutilizables.
+- **Enrutamiento:** Plantillas, modelos gráficos, configuración de Pi Hub y recursos reutilizables.
 
 ### `04 Proyectos/`
 - **Contenido:** Proyectos activos, iniciativas y producción con entregable final, clasificados por dominio.

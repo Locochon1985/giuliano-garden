@@ -1,0 +1,26 @@
+{
+  "defaultProvider": "antigravity",
+  "defaultModel": "gemini-4-hydrogen",
+  "lastChangelogVersion": "1.5.2",
+  "packages": [
+    "npm:gentle-engram",
+    "npm:pi-web-access",
+    "npm:pi-btw",
+    "npm:@estebanforge/pi-antigravity-bridge",
+    "npm:pi-perplexity",
+    "git:github.com/amosblomqvist/pi-dictate"
+  ],
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.47.0",
+    "{\"source\":\"npm:@estebanforge/pi-antigravity-bridge\",\"scope\":\"user\"}": "1.10.6"
+  },
+  "extensions": [
+    "-builtin:codemode"
+  ],
+  "theme": "system",
+  "quietStartup": "header",
+  "tuiMode": "fullscreen",
+  "skills": [
+    "+skills/concept-visualizer/SKILL.md"
+  ]
+}

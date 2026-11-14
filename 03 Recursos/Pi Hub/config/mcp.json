@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gemini-notebook": {
+      "command": "node",
+      "args": [
+        "/home/giuliano/Projects/gemini-notebook-mcp/index.js"
+      ],
+      "exposure": "direct",
+      "description": "Gemini Notebook API tools for creating notebooks and ingesting sources"
+    }
+  }
+}
